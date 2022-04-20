@@ -1,0 +1,49 @@
+.best {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -7px;
+}
+
+.wrapper-best{
+
+}
+
+.best__bg {
+}
+
+.best__bg-mobile{
+    display: none;
+}
+
+.best__text {
+    position: absolute;
+    top: 100px;
+}
+
+.best__title-mobile{
+    display: none;
+}
+
+.best__descr-mobile{
+    display: none;
+}
+
+
+.best__title {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 130px;
+    text-transform: uppercase;
+    margin-bottom: 250px;
+}
+
+.best__descr {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    /*max-width: 40%;*/
+    max-width: 440px;
+}

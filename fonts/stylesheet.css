@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Miracle Extrude';
+    src: url('Miracle-Extrude.eot');
+    src: local('Miracle Extrude'), local('Miracle-Extrude'),
+        url('Miracle-Extrude.eot?#iefix') format('embedded-opentype'),
+        url('Miracle-Extrude.woff2') format('woff2'),
+        url('Miracle-Extrude.woff') format('woff'),
+        url('Miracle-Extrude.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miracle';
+    src: url('Miracle-Regular.eot');
+    src: local('Miracle Regular'), local('Miracle-Regular'),
+        url('Miracle-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Miracle-Regular.woff2') format('woff2'),
+        url('Miracle-Regular.woff') format('woff'),
+        url('Miracle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

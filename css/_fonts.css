@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format('woff2'),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format('woff'),
+    url("../fonts/HelveticaNeueCyr-Roman.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/HelveticaNeueCyr-Italic.woff2") format('woff2'),
+    url("../fonts/HelveticaNeueCyr-Italic.woff") format('woff'),
+    url("../fonts/HelveticaNeueCyr-Italic.ttf") format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format('woff2'),
+    url("../fonts/HelveticaNeueCyr-Medium.woff") format('woff'),
+    url("../fonts/HelveticaNeueCyr-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format('woff2'),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format('woff'),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miracle';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Miracle-Regular.eot") format('eot');
+    src: local(''),
+    url("../fonts/Miracle-Personal-use.ttf") format('ttf'),
+    url("../fonts/Miracle-Personal-use.woff") format('woff'),
+    url('../fonts/Miracle Personal use.woff2') format('woff2');
+}
+
+
+
+
+

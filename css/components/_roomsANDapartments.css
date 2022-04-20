@@ -1,0 +1,148 @@
+.rooms {
+    color: #1B3B36;
+    padding: 300px 0 190px 0;
+}
+
+.wrapper {
+}
+
+.wrapper-rooms {
+}
+
+.rooms__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.rooms__sub-mobile{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: right;
+    display: none;
+}
+
+.rooms__title {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 130px;
+    text-transform: uppercase;
+    max-width: 1036px;
+}
+
+.rooms__title-mobile{
+    display: none;
+    font-size: 60px;
+    line-height: 60px;
+    max-width: 354px;
+}
+
+.rooms__subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    max-width: 440px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__left {
+    padding-top: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider__img-small {
+    width: 100%;
+}
+
+.slider__next {
+    display: block;
+    height: 170px;
+    width: 170px;
+    background-image: url("../../img/roomsANDampartments/arrow-right.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider__center {
+    max-width: 25%;
+    padding-top: 176px;
+}
+
+.slider__since {
+    margin-bottom: 364px;
+    padding: 22px 50px 22px 86px;
+    max-width: 249px;
+    max-height: 65px;
+    border: 1px solid rgba(49, 63, 56, 0.48);
+}
+
+.slider__title {
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.slider__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+    margin-bottom: 125px;
+}
+
+.slider__page {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.slider__page-mobile{
+    display: none;
+}
+
+.light-color{
+    color: #C4C4C4;
+}
+
+.slider__right {
+    position: relative;
+}
+
+.slider__img-big {
+}
+
+.slider__book-room {
+    padding-top: 78px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    height: 200px;
+    width: 200px;
+    background-image: url("../../img/roomsANDampartments/book-room.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}

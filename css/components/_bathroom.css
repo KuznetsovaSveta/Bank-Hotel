@@ -1,0 +1,89 @@
+.bathroom {
+    padding-top: 294px;
+    margin-bottom: 17px;
+    color: rgba(27, 59, 54, 0.8);
+}
+
+.wrapper {
+}
+
+.wrapper-bathroom {
+    max-width: 1560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bathroom__left {
+    max-width: 600px;
+}
+
+.bath__wrap {
+    position: relative;
+}
+
+.bath__wrap:before{
+    content: "";
+    position: absolute;
+    top: -125px;
+    right: -129px;
+    height: 162px;
+    width: 175px;
+    background-image: url("../../img/bathroom/label-round.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bathroom__left-img {
+    width: 600px;
+    margin-bottom: 60px;
+}
+
+.bathroom__title {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: #1B3B36;
+}
+
+.bathroom__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.bathroom__left-text{
+    max-width: 350px;
+    margin-bottom: 261px;
+}
+
+.bathroom__right-text{
+    max-width: 443px;
+}
+
+.bathroom__book-room {
+    font-size: 26px;
+    line-height: 31px;
+    align-items: center;
+    text-transform: uppercase;
+    border: 1px solid #313F38;
+    border-radius: 99px;
+    padding: 20px 39px;
+}
+
+.bathroom__book-room-mobile{
+    display: none;
+}
+
+.bathroom__right {
+}
+
+.bathroom__right-img {
+    width: 600px;
+    margin-bottom: 70px;
+}

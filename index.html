@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BankHotel</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+	<div class="wrapper wrapper-header">
+		<a href="index.html" class="header__logo">
+			BankHotel
+		</a>
+		<nav class="header__nav header__nav-wrapper">
+			<div class="header__nav-top">
+				<a href="index.html" class="header__nav-logo">
+					BankHotel
+				</a>
+
+				<div class="header__nav-close">
+					<span class="header__nav-close-line"></span>
+					<span class="header__nav-close-line"></span>
+				</div>
+			</div>
+
+			<ul class="header__menu">
+				<li class="header__item">
+					<a href="#!" class="header__link">
+						Home
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#!" class="header__link">
+						About
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="room.html" class="header__link">
+						Rooms
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="restaurant.html" class="header__link">
+						Restaurant
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#!" class="header__link">
+						Conference hall
+					</a>
+				</li>
+				<li class="header__item">
+					<a href="#!" class="header__link">
+						Contacts
+					</a>
+				</li>
+			</ul>
+
+			<div class="header__nav-contacts">
+				<a href="tel:+380322975020" class="header__nav-number">+38 032 297 50 20</a>
+
+				<p class="header__nav-address">
+					8 Lystopadovoho Chynu,Lviv
+				</p>
+
+				<ul class="header-social__list">
+					<li class="header-social__item">
+						<a href="#!" class="header-social__link header__link">
+							FACEBOOK
+						</a>
+					</li>
+
+					<li class="header-social__item">
+						<a href="#!" class="header-social__link header__link">
+							INSTAGRAM
+						</a>
+					</li>
+
+					<li class="header-social__item">
+						<a href="#!" class="header-social__link header__link">
+							TWITTER
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+		<a href="tel:+380322975020" class="header_number">+38 032 297 50 20</a>
+
+		<div class="header_burger burger">
+			<span class="burger_line burger_line_first"></span>
+			<span class="burger_line burger_line_third"></span>
+		</div>
+	</div>
+</header>
+
+
+<main class="main">
+	<section class="bankHotel">
+		<div class="wrapper wrapper-bankHotel">
+			<div class="logo">
+				<p class="big-logo">
+					Bank<span class="yellow">Hotel</span>
+				</p>
+
+				<ul class="logo__list yellow">
+					<li class="logo__item">
+						<a href="room.html" class="logo__link">
+							ROOMS
+						</a>
+					</li>
+					<li class="logo__item">
+						<a href="restaurant.html" class="logo__link">
+							RESTAURANT
+						</a>
+					</li>
+					<li class="logo__item">
+						<a href="#!" class="logo__link">
+							CONGRESS HALL
+						</a>
+					</li>
+					<li class="logo__item">
+						<a href="#!" class="logo__link">
+							WINE BAR
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="since">
+				<div class="since__buttons">
+					<a href="#!" class="since__btn">
+						Since 1973
+					</a>
+
+					<a href="#!" class="btn-poligon"></a>
+				</div>
+
+				<p class="since__text">
+					The luxurious hotel in&nbsp;the most beautiful European city with an&nbsp;exclusive restaurant,
+					conference-hall, and art-bar.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="check">
+		<div class="wrapper wrapper-check">
+			<div class="check__bg-wrap">
+				<img src="img/check/bg.jpg" alt="room" class="check__bg">
+			</div>
+<!--			<div class="check__bg">-->
+
+<!--			</div>-->
+			<form action="" class="check__form">
+				<input type="date" class="check__input form__item check__input-check-in" placeholder="CHECK IN"
+					   onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+				<input type="date" class="check__input form__item check__input-check-out" placeholder="CHECK OUT"
+					   onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+				<button type="submit" class="check__button form__item">
+					BOOK ROOM
+				</button>
+			</form>
+
+			<div class="check__text">
+				<div class="check__contacts">
+					<a href="tel:+380322975020" class="check__number">+38 032 297 50 20</a>
+					<a href="#!" class="check__address">8 Lystopadovoho Chynu,Lviv</a>
+				</div>
+
+				<p class="check__name">
+					ART &amp;&nbsp;CONGRESS <br> HALL
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="wrapper wrapper-about">
+			<img src="img/aboutUs/big-picture.jpg" alt="beautiful kitchen" class="about__photo-big">
+
+			<div class="about__text">
+				<h1 class="about__title">
+					<span class="yellow">ABOUT</span> US
+				</h1>
+
+				<h2 class="about__subtitle">
+					High quality
+				</h2>
+
+				<p class="about__descr about__descr-desktop">
+					The five-star Bank Hotel was reopened to&nbsp;visitors in&nbsp;2016. The building was renovated and
+					modernized to&nbsp;meet the expectations of&nbsp;the most demanding guests. We&nbsp;offer luxurious
+					rooms, numerous facilities, and exceptional service.
+				</p>
+
+				<p class="about__descr about__descr-tablet">
+					The hotel was reopened to visitors in 2016. The building was renovated and modernized to meet the
+					expectations of the most demanding guests. We offer luxurious rooms, numerous facilities, and
+					exceptional service.
+				</p>
+
+				<p class="about__descr about__descr-mobile">
+					The hotel was reopened to visitors in 2016. The building was renovated and modernized to meet the
+					expectations of the most demanding guests. We offer luxurious rooms, numerous facilities, and
+					exceptional service. The hotel is located near the city center, which makes it the best option for
+					those who travel for business and travel purposes.
+				</p>
+			</div>
+
+			<div class="about__premium">
+				<div class="about__photo-small">
+					<img src="img/aboutUs/small-picture.jpg" alt="kitchen" class="about__photo-small__pic">
+				</div>
+
+				<div class="about__poligon">
+					<a href="#rooms" class="about__rooms"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="rooms" id="rooms">
+		<div class="wrapper wrapper-rooms">
+			<div class="rooms__head">
+				<h2 class="rooms__sub-mobile">
+					70 rooms
+				</h2>
+				<h2 class="rooms__title">
+					ROOMS
+					&amp;&nbsp;APARTMENTS
+				</h2>
+
+				<h2 class="rooms__title rooms__title-mobile">
+					ROOMS &amp;&nbsp;<br> APARTMENTS
+				</h2>
+
+				<p class="rooms__subtitle">
+					All room decoration was made with ecological certified and safe materials.
+				</p>
+			</div>
+
+			<div class="slider">
+				<div class="slider__left">
+					<img src="img/roomsANDampartments/small-pic.jpg" alt="hallway" class="slider__img-small">
+					<a href="#!" class="slider__next"></a>
+				</div>
+
+				<div class="slider__center">
+					<a href="#!" class="since__btn slider__since">Since 1973</a>
+
+					<h2 class="slider__title">
+						Superior twin
+					</h2>
+
+					<p class="slider__text">
+						The Superior twin is&nbsp;perfect for those who plan to&nbsp;stay long. The spacious and bright
+						room is&nbsp;equipped with deluxe Italian furniture and has a&nbsp;beautiful view to&nbsp;the
+						historical part of&nbsp;the city. Stylish interior design and comfortable beds will make your
+						stay cozy and pleasant.
+					</p>
+
+					<p class="slider__page">
+						01<span class="light-color"> / 04</span>
+					</p>
+				</div>
+
+				<div class="slider__right">
+					<img src="img/roomsANDampartments/big-pic.jpg" alt="bedroom" class="slider__img-big">
+
+					<a href="#!" class="slider__book-room">
+						Book room
+					</a>
+
+					<p class="slider__page slider__page-mobile">
+						01<span class="light-color"> / 04</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="facilities">
+		<div class="wrapper wrapper-facilities">
+			<div class="gray-line facilities-line"></div>
+			<div class="flex facilities-reverse">
+				<div class="facilities__left facilities__subtitle-mobile">
+					<p class="facilities__subtitle">
+						Art &amp;&nbsp;Congress hall
+					</p>
+				</div>
+
+				<div class="facilities__center">
+					<div class="facilities__titles">
+						<div class="title-left">
+							<p class="facilities__title">
+								OUR FACI
+							</p>
+
+							<img src="img/facilities/star.svg" alt="star" class="facilities__star">
+						</div>
+						<p class="facilities__title title-right">
+							LITIES
+						</p>
+					</div>
+				</div>
+
+				<div class="facilities__barman">
+					<img src="img/facilities/barmen.jpg" alt="Barman" class="barman-image">
+				</div>
+			</div>
+
+
+			<div class="flex">
+				<div class="facilities__left facilities__left-rel facilities__left-mobile">
+					<img src="img/facilities/kitchen.jpg" alt="kitchen" class="kitchen__img">
+				</div>
+
+				<div class="facilities__center facilities__center-text">
+					<div class="facilities__text">
+						Bank Hotel offers you a&nbsp;wide range of&nbsp;additional services and facilities. Visit our
+						restaurant to&nbsp;try exclusive meals, book a&nbsp;conference hall to&nbsp;organize a&nbsp;business
+						meeting, or&nbsp;relax in&nbsp;the art-bar.
+					</div>
+				</div>
+			</div>
+
+
+<!--			<div class="flex">-->
+<!--				<div class="facilities__left">-->
+<!--					<h2 class="facilities__subtitle">-->
+<!--						Art &amp;&nbsp;Congress hall-->
+<!--					</h2>-->
+
+<!--					<img src="img/facilities/kitchen.jpg" alt="kitchen" class="kitchen__img">-->
+<!--				</div>-->
+
+<!--				<div class="facilities__center">-->
+<!--					<div class="facilities__titles">-->
+<!--						<div class="title-left">-->
+<!--							<p class="facilities__title">-->
+<!--								OUR FACI-->
+<!--							</p>-->
+
+<!--							<img src="img/facilities/star.svg" alt="star" class="facilities__star">-->
+<!--						</div>-->
+
+<!--						<p class="facilities__title title-right">-->
+<!--							LITIES-->
+<!--						</p>-->
+<!--					</div>-->
+
+<!--					<div class="facilities__text">-->
+<!--						Bank Hotel offers you a&nbsp;wide range of&nbsp;additional services and facilities. Visit our-->
+<!--						restaurant to&nbsp;try exclusive meals, book a&nbsp;conference hall to&nbsp;organize a&nbsp;business-->
+<!--						meeting, or&nbsp;relax in&nbsp;the art-bar.-->
+<!--					</div>-->
+<!--				</div>-->
+
+<!--				<div class="facilities__barman">-->
+<!--					<img src="img/facilities/barmen.jpg" alt="Barman" class="barman-image">-->
+<!--				</div>-->
+<!--			</div>-->
+		</div>
+	</section>
+
+	<section class="zones">
+		<div class="wrapper wrapper-zones">
+			<div class="zone">
+				<div class="zone__text">
+					<h2 class="zone__page">
+						01
+					</h2>
+
+					<h2 class="zone__title">
+						Ice	restaurant
+					</h2>
+
+					<p class="zone__descr">
+						The hotel&rsquo;s exclusive infrastructure is&nbsp;complemented by&nbsp;the unique atmosphere
+						of&nbsp;the Safe Restaurant. Author&rsquo;s menu, extensive wine card, and live music will set you
+						for the correct mood.
+					</p>
+				</div>
+
+<!--				<div class="zone__text-mobile">-->
+<!--					<h2 class="zone__page-mobile">-->
+<!--						01-->
+<!--					</h2>-->
+
+<!--					<h2 class="zone__title-mobile">-->
+<!--						Ice	restaurant-->
+<!--					</h2>-->
+
+<!--					<p class="zone__descr-mobile">-->
+<!--						The hotel&rsquo;s exclusive infrastructure is&nbsp;complemented by&nbsp;the unique atmosphere-->
+<!--						of&nbsp;the Safe Restaurant. Author&rsquo;s menu, extensive wine card, and live music will set you-->
+<!--						for the correct mood.-->
+<!--					</p>-->
+<!--				</div>-->
+
+				<div class="">
+					<img src="img/zones/ice-restaurant.jpg" alt="ice restaurant" class="zone__img">
+					<p class="subtitle-hidden">
+						Art & Congress hall
+					</p>
+				</div>
+			</div>
+
+			<div class="cards">
+				<div class="card">
+					<img src="img/zones/conference%20hall.jpg" alt="conference hall" class="card__img">
+
+					<p class="card__num">
+						02
+					</p>
+
+					<p class="card__name">
+						conference hall
+					</p>
+
+					<a href="#!" class="card__open"></a>
+				</div>
+				<div class="gray-line zone__line"></div>
+
+				<div class="card">
+					<img src="img/zones/wine-bar.jpg" alt="wine bar" class="card__img">
+
+					<p class="card__num">
+						03
+					</p>
+
+					<p class="card__name">
+						Wine bar “reserve”
+					</p>
+
+					<a href="#!" class="card__open"></a>
+				</div>
+				<div class="gray-line zone__line"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="best">
+		<div class="best__bg">
+			<img src="img/BestApartments/bg.jpg" alt="Best Apartments">
+		</div>
+
+		<div class="best__bg-mobile">
+			<img src="img/BestApartments/bg-mobile.jpg" alt="Best Apartments">
+		</div>
+
+		<div class="wrapper wrapper-best">
+			<div class="best__text">
+				<h2 class="best__title yellow">
+					BEST <br> APARTMENTS
+				</h2>
+
+				<p class="best__descr yellow">
+					All room decoration was made with ecological certified and safe materials.
+				</p>
+			</div>
+
+			<h2 class="best__title best__title-mobile yellow">
+				BEST <br> APARTMENTS
+			</h2>
+
+			<p class="best__descr best__descr-mobile yellow">
+				All room decoration was made with ecological certified and safe materials.
+			</p>
+		</div>
+	</section>
+
+	<section class="gallery">
+		<div class="wrapper">
+			<h2 class="gallery__subtitle">
+				Art &amp;&nbsp;Congress <br> hall
+			</h2>
+
+
+			<div class="gallery__main">
+				<img src="img/gallery/label-round.svg" alt="Premium room" class="gallery__round-logo">
+
+				<h2 class="gallery__title yellow">
+					OUR GALLERY
+				</h2>
+
+				<div class="gallery__descr">
+					Explore our spacious rooms with the gorgeous view to&nbsp;the historical part of&nbsp;the city. Each
+					room has an&nbsp;exclusive interior design decorated with modern art pieces that will make your stay
+					unforgettable.
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper-gallery">
+			<div class="gallery__photo gallery__photo-desktop">
+				<div class="gallery__center">
+					<img src="img/gallery/living-room.jpg" alt="Living room" class="gallery__living">
+
+					<div class="gallery__signature signature">
+						<img src="img/gallery/yellow-poligon.svg" alt="Yellow poligon" class="yellow-poligon">
+
+						<p class="signature__text">
+							It&nbsp;is&nbsp;our pleasure to&nbsp;meet your most unrealistic expectations.
+						</p>
+					</div>
+				</div>
+				<img src="img/gallery/hallway.jpg" alt="Hallway" class="gallery__pic gallery__hallway">
+				<img src="img/gallery/dining-room.jpg" alt="Dining room" class="gallery__pic gallery__dining">
+				<img src="img/gallery/bathroom.jpg" alt="Bathroom" class="gallery__pic gallery__bathroom">
+				<img src="img/gallery/restaurant.jpg" alt="Restaurant" class="gallery__pic gallery__restaurant">
+			</div>
+
+
+			<div class="gallery__photo gallery__photo-mobile">
+<!--				<div class="gallery__center">-->
+					<img src="img/gallery/center-mobile.jpg" alt="Living room" class="gallery__living">
+<!--				</div>-->
+					<div class="wrapper gallery__signature signature">
+						<img src="img/gallery/yellow-poligon.svg" alt="Yellow poligon" class="yellow-poligon">
+
+						<p class="signature__text">
+							It&nbsp;is&nbsp;our pleasure to&nbsp;meet your most unrealistic expectations.
+						</p>
+					</div>
+				<img src="img/gallery/kitchen-mobile.jpg" alt="Kitchen" class="gallery__pic gallery__kitchen">
+				<img src="img/gallery/bathroom-mobile.jpg" alt="Bathroom" class="gallery__pic gallery__bathroom">
+<!--				<div class="bg-transparent">-->
+					<img src="img/gallery/bathroom2-mobile.jpg" alt="Bathroom" class="gallery__pic gallery__bath">
+					<img src="img/gallery/restaurant.jpg" alt="Restaurant" class="gallery__pic gallery__restaurant">
+<!--				</div>-->
+			</div>
+
+			<p class="text-endless">
+				Bank hotel Bank hotel Bank hotel Bank hotel <span class="span-white"> Bank__hotel©</span> Bank hotel Bank hotel Bank hotel  Bank hotel Bank
+				hotel Bank hotel Bank hotel Bank hotel Bank hotel Bank hotel Bank hotel
+			</p>
+		</div>
+	</section>
+
+	<section class="get"><!--TODO:позиционирование заголова кривое. Звезда наезжает на картинку. Заголовок спозиционирован относительно окна?-->
+		<div class="wrapper wrapper-get">
+			<a href="tel:+380322975020" class="get__number">+38 032 297 50 20</a>
+
+			<div class="get__right">
+				<p class="get__address">
+					8 Lystopadovoho Chynu,Lviv
+				</p>
+
+				<img src="img/get/room.jpg" alt="Room" class="get__img">
+			</div>
+
+			<h2 class="get__title">
+				<span class="span-left">GET IN</span> <br><span class="span-right yellow">TOUCH</span>
+			</h2>
+
+			<div class="get__bg">
+				<img src="img/get/star.svg" alt="Star" class="get__star">
+				<img src="img/get/vector.svg" alt="Vector" class="get__vector">
+			</div>
+
+			<div class="get__book-mobile">
+				<a href="#!">Book room</a>
+			</div>
+
+			<h2 class="get__subtitle">
+				FIND A ROOM
+			</h2>
+
+			<form action="" class="find__form">
+				<input type="date" class="find__input find__form-item find__input-check-in" placeholder="CHECK IN"
+					   onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+
+				<input type="date" class="find__input find__form-item find__input-check-out" placeholder="CHECK OUT"
+					   onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+				<button type="submit" class="find__button find__form-item">
+					BOOK ROOM
+				</button>
+			</form>
+
+			<div class="gray-line get__line"></div>
+		</div>
+	</section>
+</main>
+
+<footer class="footer">
+	<div class="wrapper wrapper-footer">
+		<div class="footer__column footer__about">
+			<h2 class="footer__title">
+				ABOUT US
+			</h2>
+			<p class="footer__text footer__about-text">
+				The five-star hotel in&nbsp;a&nbsp;beautiful European city with a&nbsp;modern restaurant,
+				conference-hall, and art-bar.
+			</p>
+
+			<p class="footer__copy">
+				&copy;2021 All rights reserved. BankHotel
+			</p>
+		</div>
+
+		<div class="footer__column footer__news">
+			<h2 class="footer__title">
+				NEWS
+			</h2>
+
+			<p class="footer__text footer__news-text">
+				Sign up&nbsp;to&nbsp;our newsletter not to&nbsp;miss exclusive offers and information about the upcoming
+				events.
+			</p>
+
+			<form action="" class="footer__form">
+				<input type="email" class="form__input" placeholder="EMAIL">
+			</form>
+		</div>
+
+		<div class="footer__column footer__social">
+			<h2 class="footer__title">
+				SOCIAL
+			</h2>
+
+			<ul class="footer__list">
+				<li class="footer__item">
+					<a href="#!" class="footer__link">
+						FACEBOOK
+					</a>
+				</li>
+
+				<li class="footer__item">
+					<a href="#!" class="footer__link">
+						INSTAGRAM
+					</a>
+				</li>
+
+				<li class="footer__item">
+					<a href="#!" class="footer__link">
+						TWITTER
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="wrapper footer-mobile">
+		<p class="footer__copy footer__copy-mobile">
+			&copy;2021 All rights reserved. BankHotel
+		</p>
+	</div>
+</footer>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

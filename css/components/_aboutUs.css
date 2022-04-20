@@ -1,0 +1,98 @@
+.about {
+    background: #313F38;
+    padding-bottom: 300px;
+}
+
+.wrapper-about {
+    display: flex;
+    padding-top: 150px;
+}
+
+.about__photo-big {
+    flex: 0 0 32.58%;
+    max-width: 606px;
+    max-height: 850px;
+    margin-right: 181px;
+}
+
+.about__text {
+    flex: 0 0 26.41%;
+}
+
+.about__title {
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 130px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 162px;
+    margin-bottom: 189px;
+}
+
+.about__subtitle {
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 41px;
+}
+
+.about__descr {
+    max-width: 91.15%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFCF6;
+    opacity: 0.64;
+}
+
+.about__descr-tablet{
+    display: none;
+}
+
+.about__descr-mobile{
+    display: none;
+}
+
+.about__premium {
+    flex: 0 0 17.06%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.about__photo-small{
+    position: relative;
+    text-align: right;
+}
+
+.about__photo-small__pic {
+    max-width: 314px;
+    max-height: 414px;
+    margin-bottom: 200px;
+}
+
+.about__photo-small:before{
+    position: absolute;
+    content: "";
+    width: 144px;
+    height: 147px;
+    left: -105px;
+    top: -120px;
+    background-image: url("../../img/aboutUs/round.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about__rooms {
+    background-image: url("../../img/aboutUs/poligon-text.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: 115px;
+}

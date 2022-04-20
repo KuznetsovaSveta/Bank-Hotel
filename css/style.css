@@ -1,0 +1,30 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_global.css";
+
+
+
+
+@import "./components/_header.css";
+@import "./components/_bankHotel.css";
+@import "./components/_check.css";
+@import "./components/_aboutUs.css";
+@import "./components/_roomsANDapartments.css";
+@import "./components/_facilities.css";
+@import "./components/_zones.css";
+@import "./components/_best.css";
+@import "./components/_gallery.css";
+@import "./components/_get.css";
+@import "./components/_footer.css";
+
+
+@import "./components/_superior.css";
+@import "./components/_premier.css";
+@import "./components/_bathroom.css";
+
+
+@import "./components/_safe.css";
+@import "./components/_service.css";
+
+
+@import "_media.css";

@@ -1,0 +1,102 @@
+.facilities {
+    color: #1B3B36;
+    margin-bottom: 200px;
+}
+
+.wrapper-facilities {
+}
+
+.gray-line {
+    width: 100%;
+    height: 1px;
+    background-color: #1B3B36;
+    opacity: 0.48;
+    margin-bottom: 200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.facilities__left {
+}
+
+.facilities__subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    max-width: 251px;
+    margin-bottom: 336px;
+    margin-right: 380px;
+}
+
+.kitchen__img {
+    display: block;
+    margin-right: 187px;
+    margin-top: -9px;
+}
+
+.facilities__center {
+}
+
+.facilities__titles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 130px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+
+.facilities__title {
+}
+
+.title-left {
+    max-width: 270px;
+}
+
+.facilities__star{
+    margin-left: 131px;
+    margin-top: 51px;
+}
+
+.title-right {
+    max-width: 373px;
+}
+
+.facilities__text {
+    margin-top: 140px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+    max-width: 350px;
+}
+
+.facilities__barman {
+    margin-top: 112px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+}
+.facilities__barman:after{
+    position: absolute;
+    content: "";
+    width: 190px;
+    height: 190px;
+    left: -95px;
+    top: -95px;
+    background-image: url("../../img/facilities/label-round.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.barman-image {
+}

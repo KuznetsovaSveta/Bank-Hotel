@@ -1,0 +1,185 @@
+.get {
+    color: #1B3B36;
+    padding-top: 300px;
+    position: relative;
+}
+
+.wrapper {
+}
+
+.wrapper-get {
+}
+
+.get__number {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.get__right {
+    padding-top: 83px;
+    margin-left: auto;
+    margin-right: 157px;
+    text-align: left;
+    max-width: 443px;
+}
+
+.get__address {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-bottom: 177px;
+    max-width: 284px;
+}
+
+.get__img {
+    margin-bottom: 255px;
+}
+
+.get__title {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 350px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 1860px;
+    position: absolute;
+    top: 662px;
+}
+
+.get__star{
+    position: absolute;
+    display: block;
+    top: 760px;
+    right: 825px;
+}
+
+.get__vector{
+    position: absolute;
+    top: 475px;
+    left: -3px;
+}
+
+.get__book-mobile{
+    display: none;
+}
+
+.span-left{
+}
+
+.span-right {
+    display: block;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.get__subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.find__form {
+    border: 1px solid #1B3B36;
+    max-width: 913px;
+    margin-bottom: 200px;
+}
+
+.find__input {
+    float: left;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1B3B36;
+    position: relative;
+    background-color: #FFFCF6;
+    padding-right: 25px;
+    outline: none;
+}
+
+.find__input:after{
+    /*z-index: 0;*/
+    content: "";
+    position: absolute;
+    background-image: url("../../img/get/arrow-down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 30px;
+    height: 8px;
+    width: 16px;
+}
+
+.find__input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1B3B36;
+}
+
+.find__form-item {
+    width: 313px;
+    height: 138px;
+    margin: 0;
+    border: none;
+}
+
+.find__input-check-in {
+
+}
+
+.find__input-check-in[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.find__input-check-out {
+
+}
+
+.find__input-check-out[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.find__button {
+    width: 285px;
+    background: #313F38;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+
+.get__line{
+    margin:0;
+}
+
+
+.get-restaurant{
+    color: #FFFCF6;
+}
+
+.get-restaurant .find__input{
+    backdrop-filter: blur(40px);
+}
+
+.get-restaurant .find__form-item{
+    background-color: #46524B;
+    color: #FFFCF6;
+}
+
+.get-restaurant .find__button{
+    background: #FCD043;
+    color: #1B3B36;
+}
+
+.get-restaurant .find__form{
+    margin-bottom: 150px;
+}

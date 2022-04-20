@@ -1,0 +1,115 @@
+.zones {
+    color:#1B3B36;
+    margin-bottom: 245px;
+}
+
+.wrapper-zones {
+}
+
+.zone {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 200px;
+}
+
+.zone__text {
+    padding-right: 20px;
+    margin-right: 287px;
+    flex: 0 0 26.85%;
+}
+
+.zone__page {
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-transform: uppercase;
+    padding-top: 96px;
+    margin-bottom: 249px;
+}
+
+.zone__title {
+    font-family: Miracle, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.zone__descr{
+    font-family: Helvetica Neue LT Std, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.zone__img {
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card__img {
+    width: 284px;
+    height: 284px;
+    padding-right: 10px;
+    margin-right: 168px;
+}
+
+.card__num {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: capitalize;
+    padding: 0 10px 0 10px;
+    margin-right: 130px;
+}
+
+.card__name {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    padding: 0 10px 0 10px;
+}
+
+.card__open {
+    width: 89px;
+    height: 40px;
+    background-image: url("../../img/zones/arrow-right.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 10px 0 10px;
+    margin-right: 147px;
+    margin-left: auto;
+}
+
+.zone__line{
+    margin: 0;
+    margin: 50px 0 50px 0;
+}
+
+.subtitle-hidden{
+    display: none;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 26px;
+    max-width: 200px;
+}

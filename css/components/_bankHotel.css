@@ -1,0 +1,106 @@
+.bankHotel {
+    background: #313F38;
+    padding-top: 40px;
+}
+
+.wrapper-bankHotel {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.wrapper-bankHotel {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.logo {
+    flex: 0 0 52%;
+    max-width: 980px;
+}
+
+.big-logo {
+    font-family: Miracle, sans-serif;
+    font-size: 220px;
+    line-height: 200px;
+    margin-bottom: 62px;
+    margin-top: 5px;
+}
+
+.logo__list {
+    display: flex;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+
+.logo__item {
+    position: relative;
+    margin-right: 3px;
+}
+
+.logo__item:after{
+    content: "//";
+    color: #FCD043;
+}
+
+.logo__item:last-child::after{
+    display: none;
+}
+
+.logo__link {
+}
+
+.since {
+    flex: 0 0 32.6%;
+    margin-top: 40px;
+}
+
+.since__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.since__btn {
+    border: 1px solid rgba(255, 252, 246, 0.32);
+    border-radius: 99px;
+    padding: 25px 50px 25px 86px;
+    max-width: 249px;
+    max-height: 70px;
+    font-size: 22px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 98px;
+}
+
+.since__btn:before{
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 17px;
+    width: 35px;
+    height: 35px;
+    background-image: url("../../img/BankHotel/star.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-poligon{
+    height: 70px;
+    width: 70px;
+    background-image: url("../../img/BankHotel/button-down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.since__text {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+    max-width: 350px;
+}

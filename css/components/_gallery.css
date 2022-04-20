@@ -1,0 +1,127 @@
+.gallery {
+    padding: 330px 0 300px 0;
+    background-color: #1B3B36;
+    overflow: hidden;
+}
+
+.wrapper-gallery{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.gallery__subtitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.gallery__main {
+    text-align: center;
+    max-width: 898px;
+    margin: 0 auto;
+    margin-top: -87px;
+    margin-bottom: 150px;
+}
+
+.gallery__round-logo {
+    margin-bottom: 41px;
+}
+
+.gallery__title {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 130px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+
+}
+
+.gallery__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+    max-width: 455px;
+    margin: 0 auto;
+}
+
+.gallery__photo {
+    position: relative;
+    margin-bottom: 208px;
+}
+
+.gallery__photo-mobile{
+    display: none;
+}
+
+.gallery__pic {
+    position: absolute;
+    display: block;
+}
+
+.gallery__center{
+    margin: 0 auto;
+    max-width: 916px;
+}
+
+.gallery__living {
+    display: block;
+    max-height: 600px;
+    margin-bottom: 100px;
+}
+
+.gallery__hallway {
+    left: 0;
+    top: -263px;
+}
+
+.gallery__dining {
+    left: 29px;
+    bottom: 1px;
+}
+
+.gallery__restaurant {
+    right: 0;
+    top: -263px;
+}
+
+.gallery__bathroom {
+    right: 30px;
+    bottom: -291px;
+}
+
+.gallery__signature {
+    display: flex;
+    align-items: center;
+}
+
+.yellow-poligon {
+    margin-right: 30px;
+}
+
+.signature__text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /*color: rgba(255, 252, 246, 0.8);*/
+    opacity: 0.8;
+    max-width: 350px;
+}
+
+.text-endless {
+    font-family: Miracle,sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 140px;
+    color: rgba(255, 252, 246, 0.12);
+    width: 5000px;
+    margin-left: -1917px;
+}
+
+.span-white{
+    color: white;
+}
